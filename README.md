@@ -16,21 +16,19 @@ Para iniciar o projeto devem ser seguidos os seguintes passos:
     `docker run -e "ACCEPT_EULA=1" -e "MSSQL_SA_PASSWORD=MyPass@word" -e "MSSQL_USER=sa" -p 1433:1433 -d --name=sql mcr.microsoft.com/mssql/server:2019-latest`
 3. Iniciar o container: `docker start sql`
 4. Iniciar o backend: `dotnet build` e `dotnet run`
-5. Instalar dependências e iniciar o frontend: `npm install` e deseguida `npm start`
+5. Instalar dependências e iniciar o frontend: `npm install` e de seguida `npm start`
   
 
 ## **Ferramentas**
 
 
 * **GitLab** – Controlo de versões, definição e distribuição das tarefas atribuídas aos elementos da equipa
-* **Microsoft Teams** – Plataforma de comunicação dos elementos da equipa
-* **Zoom** - Plataforma de comunicação dos elementos da equipa
 
 
 ## **Tecnologias**
 
 
-* **Angular** - Framework para lado do cliente
+* **Angular** - Framework do frontend
 * **Android** - Sistema operativo utilizado pelo cliente no dispositvo mobile
 * **.NET** - Plataforma de desenvolvimento da WEB API
 * **SQL** - Base de dados relacional utilizada para o armazenamento dos dados
